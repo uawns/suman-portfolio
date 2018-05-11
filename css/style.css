@@ -1,0 +1,64 @@
+/* header css */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+main .container {
+    padding: 0;
+}
+
+header .container {
+    padding: 40px 0;
+    border-bottom: 4px solid #92f8df;
+    box-sizing: border-box;
+}
+
+.logo {
+    order: 1;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.head-text {
+    order: 1;
+    float: right;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#head-text-name {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1;
+}
+
+#head-text-position {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* hero img */
+
+main {
+    margin: 25px auto;
+}
+
+.hero {
+    margin-bottom: 25px;
+}
+
+/* featured work */
+
+.section-head {
+    color: #92f8df;
+}
+
+
+
+.work-list {
+    color: #555;
+}
