@@ -5,7 +5,7 @@ header {
     flex-direction: row;
 }
 
-main .container {
+.nopadding {
     padding: 0;
 }
 
@@ -30,13 +30,13 @@ header .container {
     text-transform: uppercase;
 }
 
-#head-text-name {
+.head-text-name {
     font-size: 3rem;
     font-weight: 100;
     line-height: 1;
 }
 
-#head-text-position {
+.head-text-position {
     font-size: 1.5rem;
     font-weight: 800;
 }
